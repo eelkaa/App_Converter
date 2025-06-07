@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerBaseCurrency"
+        style="@style/SpinnerTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/editTextBackground"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnLoadChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/buttonColor"
+        android:padding="8dp"
+        android:text="@string/show_chart"
+        android:textColor="@color/textColorPrimary" />
+
+    <TextView
+        android:id="@+id/ratesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/default_rates_message"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!-- Заголовок -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <!-- Поле ввода суммы -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount_label"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/amount_hint"
+            android:importantForAutofill="auto"
+            android:inputType="numberDecimal|numberSigned"
+            android:padding="8dp"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorSecondary" />
+    </LinearLayout>
+
+    <!-- Выбор валюты "из" -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from_currency_label"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinnerFrom"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/spinner_background"
+            android:padding="8dp"
+            android:popupTheme="@style/SpinnerTheme"
+            android:theme="@style/SpinnerTheme" />
+    </LinearLayout>
+    <!-- Кнопка обмена валют -->
+    <ImageButton
+        android:id="@+id/ivSwap"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/swap_currencies_description"
+        android:focusable="true"
+        android:src="@drawable/ic_swap"
+        app:tint="@color/textColorPrimary" />
+    <!-- Выбор валюты "в" -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to_currency_label"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinnerTo"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/spinner_background"
+            android:padding="8dp"
+            android:popupTheme="@style/SpinnerTheme"
+            android:theme="@style/SpinnerTheme" />
+    </LinearLayout>
+
+    <!-- Кнопка конвертации -->
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/buttonColor"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:text="@string/convert_button"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <!-- Блок результата -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/result_background"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/result_label"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

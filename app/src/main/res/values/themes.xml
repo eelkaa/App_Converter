@@ -1,0 +1,28 @@
+<resources>
+    <!-- Базовая тема без ActionBar -->
+    <style name="Theme.DirectCurrencyConverter" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Измените на ваш цвет -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Дополнительные настройки -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:padding">8dp</item>
+    </style>
+</resources>

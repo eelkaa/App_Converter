@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Конвертер Валют</string>
+    <string name="flag">Флаг страны</string>
+    <string name="amount_label">Сумма</string>
+    <string name="amount_hint">Введите сумму</string>
+    <string name="from_currency_label">Из валюты</string>
+    <string name="to_currency_label">В валюту</string>
+    <string name="convert_button">Конвертировать</string>
+    <string name="result_label">Результат:</string>
+    <string name="swap_currencies_description">Поменять валюты местами</string>
+    <string name="flag_description">Флаг страны</string>
+    <string name="show_chart">Показать текущие курсы</string>
+    <string name="show_converter">Показать конвертер</string>
+    <string name="currency_usd">Доллар США</string>
+    <string name="currency_eur">Евро</string>
+    <string name="currency_rub">Российский рубль</string>
+    <string name="currency_gbp">Фунт стерлингов</string>
+    <string name="currency_cny">Китайский юань</string>
+    <string name="currency_kzt">Казахстанский тенге</string>
+    <string name="default_rates_message">Текущие курсы, относительно выбранной валюты</string>
+</resources>

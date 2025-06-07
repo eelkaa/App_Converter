@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#121212</color>
+    <color name="textColorPrimary">#E6E0DA</color> <!-- теплый белый -->
+    <color name="textColorSecondary">#B0A69A</color> <!-- теплый серый -->
+    <color name="buttonColor">#558B2F</color> <!-- темный зеленый -->
+    <color name="editTextBackground">#2A2522</color> <!-- слегка светлее фона -->
+    <color name="resultBackground">#2A2522</color> <!-- совпадает с EditText -->
+    <color name="currency_code">#7E57C2</color> <!-- темный пурпурный -->
+    <color name="rate_higher">#66BB6A</color> <!-- зеленый для роста курса -->
+    <color name="rate_lower">#EF5350</color> <!-- красный для падения курса -->
+    <color name="colorPrimary">#4E342E</color> <!-- темный коричневый -->
+    <color name="colorPrimaryDark">#3E2723</color> <!-- еще темнее -->
+    <color name="colorAccent">#558B2F</color> <!-- совпадает с buttonColor -->
+    <color name="appBarBackground">#4E342E</color> <!-- совпадает с colorPrimary -->
+    <color name="white">#FFFFFFFF</color> <!-- для обратной совместимости -->
+    <color name="black">#FF000000</color> <!-- для обратной совместимости -->
+</resources>

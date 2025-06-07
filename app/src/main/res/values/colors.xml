@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="gray">#FF9E9E9E</color>
+    <color name="colorPrimary">#6D4C41</color> <!-- темно-коричневый -->
+    <color name="colorPrimaryDark">#5D4037</color>
+    <color name="colorAccent">#8BC34A</color> <!-- светло-зеленый -->
+    <color name="background">#EFEBE9</color> <!-- бежевый фон -->
+    <color name="textColorPrimary">#5D4037</color> <!-- темно-коричневый -->
+    <color name="textColorSecondary">#795548</color> <!-- чуть светлее -->
+    <color name="buttonColor">#8BC34A</color> <!-- зеленый для кнопок -->
+    <color name="editTextBackground">#FFFFFF</color> <!-- белый фон для полей ввода -->
+    <color name="resultBackground">#D7CCC8</color> <!-- светло-коричневый для результата -->
+    <color name="appBarBackground">#6D4C41</color> <!-- цвет верхней панели -->
+    <color name="currency_code">#FF6200EE</color> <!-- пурпурный для кодов валют -->
+    <color name="rate_higher">#4CAF50</color> <!-- зеленый для роста курса -->
+    <color name="rate_lower">#F44336</color> <!-- красный для падения курса -->
+</resources>
